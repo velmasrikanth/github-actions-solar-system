@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MONGO_URI: 'mongodb+srv://supercluster.d83jj.mongodb.net/superData'
-      MONGO_USER: 'superuser'
+      MONGO_USERNAME: 'superuser'
       MONGO_PASSWORD: 'SuperPassword'
 
     steps:
